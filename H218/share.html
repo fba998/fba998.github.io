@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>济宁</title>
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="print.css" media="print" />
+		<style>
+			#imgg{
+				width: 960px;
+			
+			}
+			img:hover{
+					opacity:0.8;
+			}
+			p{
+				text-indent: 2em;
+			}
+			#div1{
+				display: flex;
+				float: left;
+			}
+			.imgg{
+				width: 250px;
+				height: 250px;
+				margin-right: 0.5cm;
+			}
+			.f{
+				margin-top: 20px;
+				font-size: 18px;
+				line-height: 50px;
+				margin-bottom: 30px;
+				border-style:solid;
+				border-color:#98bf21;
+				padding: 30px;
+				
+			}
+			.button {
+			
+				background-color: #e67e22;
+				color: #fff;
+				padding: 10px 20px;
+				border-radius: 4px;
+				text-decoration: none;
+				transition: background-color 0.3s ease;
+			}
+			.button:hover {
+				background-color: #d35400;
+				}
+			#cen{
+				
+				margin: 0 auto;
+				align-items: center;
+				margin-top: 20px;
+				margin-bottom: 30px;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1><a href="#">ShanDong Province</a></h1>
+		</header>
+		<nav>
+			<div class="menu">
+				<ul>
+					<li><a href="index.html">主页</a></li>
+					<li><a href="SDJS.html">山东景色</a></li>
+					<li><a href="#">各地介绍</a>
+						<ul>
+							<li><a href="JN.html">济宁</a></li>
+							<li><a href="TA.html">泰安</a></li>
+							<li><a href="JZN.html">济南</a></li>
+							<li><a href="YT.html">烟台</a></li>
+						</ul>
+					</li>
+					<li><a href="c_us.html">联系我们</a></li>
+					<li><a href="share.html">分享网页</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div id="content1">
+			<div id="cen">
+				<p>如果觉着本网页欧克，分享一下吧：</p>
+			<form><input type="email" id="email" pattern=".+@globex\.com" size="30" placeholder="sdmu@163.com" required></form>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="#">分享网页</a>
+			</div>
+		</div>
+		<br /><br /><br /><br /><br />
+		<script>
+			// JavaScript代码
+			document.querySelector('.button').addEventListener('click', function() {
+				alert('网页已分享！');
+			});
+		</script>
+	</body>
+	<footer>
+		<br />
+		<p>2023&copy;FBA版权所有 <a href="#" >Back to top👆</a></p>
+	</footer>
+</html>	

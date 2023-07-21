@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>济宁</title>
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="print.css" media="print" />
+		<style>
+			#imgg{
+				width: 960px;
+			
+			}
+			img:hover{
+					opacity:0.8;
+			}
+			p{
+				text-indent: 2em;
+			}
+			#div1{
+				display: flex;
+				float: left;
+			}
+			.imgg{
+				width: 250px;
+				height: 250px;
+				margin-right: 0.5cm;
+			}
+			.f{
+				margin-top: 20px;
+				font-size: 18px;
+				line-height: 50px;
+				margin-bottom: 30px;
+				border-style:solid;
+				border-color:#98bf21;
+				padding: 30px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1><a href="#">ShanDong Province</a></h1>
+		</header>
+		<nav>
+			<div class="menu">
+				<ul>
+					<li><a href="index.html">主页</a></li>
+					<li><a href="SDJS.html">山东景色</a></li>
+					<li><a href="#">各地介绍</a>
+						<ul>
+							<li><a href="JN.html">济宁</a></li>
+							<li><a href="TA.html">泰安</a></li>
+							<li><a href="JZN.html">济南</a></li>
+							<li><a href="YT.html">烟台</a></li>
+						</ul>
+					</li>
+					<li><a href="c_ue.html">联系我们</a></li>
+					<li><a href="share.html">分享网页</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div id="content1">
+			<form class="f">
+				<label>您的所在地</label>
+				<input type="text" name="username" required><br /><br />
+				<label>性别</label>
+				<input type="radio" name="gender" value="male" required>男
+				<input type="radio" name="gender" value="female" required>女
+				<input type="radio" name="gender1" value="female" required>外星人
+				<br><br>
+				<label>反馈意见</label><br />
+				<textarea id="hobbies" name="hobbies"></textarea><br><br>
+			
+				<label>年龄</label>
+				<select name="age" required>
+					<option value="">请选择</option>
+					<option value="18以下">18以下</option>
+					<option value="18-25">18-25</option>
+					<option value="26-35">26-35</option>
+					<option value="36-45">36-45</option>
+					<option value="46以上">46以上</option>
+				</select>
+			<br /><br />
+				<label>您的邮箱</label>
+				<input type="email"/>
+			<br />
+				<br /><input type="reset" value="重置">&nbsp;
+				<input type="submit" value="提交">
+			</form>
+		</div>
+		<br /><br /><br /><br /><br />
+	</body>
+	<footer>
+		<br />
+		<p>2023&copy;FBA版权所有 <a href="#" >Back to top👆</a></p>
+	</footer>
+</html>	
